@@ -1,0 +1,7 @@
+<ul>
+  <li [ngClass]="{'current': homeCurrent}"><a href="#home" (click)="homeActive()">Home</a></li>
+  <li [ngClass]="{'current': newsCurrent}"><a href="#news" (click)="newsActive()">News</a></li>
+  <li [ngClass]="{'current': contactCurrent}"><a href="#contact" (click)="contactActive()">Contact</a></li>
+  <li [ngClass]="{'current': descCurrent}"><a href="#description" (click)="descActive()">Description</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
